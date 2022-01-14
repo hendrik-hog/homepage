@@ -1,0 +1,89 @@
+baseURL = 'http://hogertz.eu/'
+title = 'hogertz.eu'
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+  author = "Hendrik Hogertz"
+  info = "Data Scientist"
+  description = "Hendrik Hogertz's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/portrait.jpeg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/hendrik-hog/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/hendrik-hogertz-0abbb8143/"
+
+[languages.en]
+languageName = ":us:"
+
+[[languages.en.menu.main]]
+name = "Home"
+weight = 1
+url = "/"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 2
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
+
+[languages.de]
+languageName = ":de:"
+title = "hogertz.eu"
+
+[languages.de.params]
+author = "Hendrik Hogertz"
+info = "Data Scientist"
+description = "Hendrik Hogertz' persönliche Website"
+keywords = "Entwickler,persönlich"
+
+[[languages.de.menu.main]]
+name = "Start"
+weight = 1
+url = "/"
+
+[[languages.de.menu.main]]
+name = "Über Mich"
+weight = 2
+url = "about/"
+
+[[languages.de.menu.main]]
+name = "Kontakt"
+weight = 5
+url = "contact/"
