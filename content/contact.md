@@ -1,7 +1,7 @@
 ---
 title: "Contact Details"
 date: 2022-01-15T00:24:47+01:00
-draft: true
+draft: false
 ---
 
 Hendrik Hogertz \
